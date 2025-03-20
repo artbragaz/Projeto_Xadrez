@@ -17,6 +17,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         ChessMatch chessMatch = new ChessMatch();
         List<ChessPiece> captured = new ArrayList<>();
+        System.out.print("Ola");
 
         while (!chessMatch.getCheckMate()){
             try {
